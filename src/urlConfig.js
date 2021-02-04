@@ -1,6 +1,6 @@
- const baseUrl = "https://flipkart-clone-apps.herokuapp.com";
+ const baseUrl = "https://flipcart-backend-app.herokuapp.com";
 
- export const api = `${baseUrl}/api`;
+ export const api = `${baseUrl}/api/`;
  export const generatePublicUrl = (fileName) => {
     return `${baseUrl}/public/${fileName}`;
 }
